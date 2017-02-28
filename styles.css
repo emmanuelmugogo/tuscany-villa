@@ -24,14 +24,11 @@
     
 }
 
-.container {
-  padding: 0;
-}
-
 .mainImage {
     background-image: url("images/main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
 }
 
 .insideText {
@@ -50,6 +47,7 @@
     background-image: url("images/map-tuscany.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
 }
 
 .insideText2 {
@@ -177,13 +175,35 @@
     height: 240px;
 }
 
+.bg-4 {
+      background-color: #00cc99; /* Black Gray */
+      color: #fff;
+}
+
 .social-link:hover { /* Makes the icons zoom when the pointer hover on */
     cursor: pointer;
-    font-size: 30px;
+    font-size: 150%;
  }
 
 /*get background transitionwhen you hover */
- div:hover { 
+ .hoverMe:hover { 
     background-size: 150% 150%;
+}
+
+row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.no-padding {
+  height: 300px;
+  width: 300px;
+  padding: 0;
+  margin-bottom:0px !important; 
+
 }
 
