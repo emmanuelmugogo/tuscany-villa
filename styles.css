@@ -1,27 +1,189 @@
-/*styles for index.html in the tuscany-villas project*/
-footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-
-
-/*remove the space between images in the container*/
-row.no-pad {
-  margin-right:0;
-  margin-left:0;
-}
-.row.no-pad > [class*='col-'] {
-  padding-right:0;
-  padding-left:0;
+/*css styles for index.html for window on tuscany*/
+.navbar-brand {
+    background-color: #42a7f4;
+    background-image: url("images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 190px;
+    
 }
 
-/*nav bar image */
-.navbar-brand>img {
-   max-height: 100%;
-   height: 100%;
-   width: auto;
-   margin: 0 auto;
-   padding-bottom: 0;
+.navbar-nav {
+
+}
+
+.navbar-right {
+    
+    margin: 0px;
+    width: 120px;
+    height: 50px;
+    padding-top: 7px;
+    background-color: #42a7f4;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.container {
+  padding: 0;
+}
+
+.mainImage {
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insideText {
+    position: absolute;
+    left: 25%;
+    padding: 4px;
+    opacity: .85;
+    width: 100%;
+    bottom: 35%;
+    max-width: 50%;
+    background-color: #8c8c8c;
+    color: white;
+}
+
+.mapImage {
+    background-image: url("images/map-tuscany.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insideText2 {
+    position: absolute;
+    left: 25%;
+    padding: 4px;
+    opacity: .85;
+    width: 100%;
+    bottom: 35%;
+    max-width: 50%;
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+}
+
+.box1 {
+    background-image: url("images/boxReplace9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3{
+    background-image: url("images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url("images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url("images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box6 {
+    background-image: url("images/boxReplace8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box7 {
+    background-image: url("images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box8 {
+    background-image: url("images/boxReplace6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box9 {
+    background-image: url("images/boxreplace1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box10 {
+    background-image: url("images/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box11 {
+    background-image: url("images/img11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.box12 {
+    background-image: url("images/img12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.innerBox {
+    width: 95%;
+    bottom: 10%;
+    left: 5%;
+    margin-right: 4px;
+    margin-left: 2px;
+    position: absolute;
+}
+
+.secondInnerBox {
+    opacity: .95;
+    width: 25%;
+    float: left;
+    color: white;
+    background-color: #4dffa6;
+}
+
+.innerBoxText {
+    color: white;
+    background-color: #2a2a2a;
+    padding: 3px;
+    opacity: .85;
+    width: 70%;
+    float: left;
+    text-align: left;
+    max-width: 222px;
+}
+
+.panel {
+    vertical-align: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+    background-position: center;
+    height: 240px;
+}
+
+.social-link:hover { /* Makes the icons zoom when the pointer hover on */
+    cursor: pointer;
+    font-size: 30px;
+ }
+
+/*get background transitionwhen you hover */
+ div:hover { 
+    background-size: 150% 150%;
 }
 
